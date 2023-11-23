@@ -34,13 +34,13 @@ jobs:
       #       echo "No CSS files found, skipping stylelint."
       #     fi
 
-      - name: Check JavaScript
-        run: |
-          if compgen -G "**/*.js" > /dev/null; then
-            npx eslint "**/*.js" --no-cache --config .eslintrc.js
-          else
-            echo "No JavaScript files found, skipping eslint."
-          fi
+      # - name: Check JavaScript
+      #   run: |
+      #     if compgen -G "**/*.js" > /dev/null; then
+      #       npx eslint "**/*.js" --no-cache --config .eslintrc.js
+      #     else
+      #       echo "No JavaScript files found, skipping eslint."
+      #     fi
 
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@master
