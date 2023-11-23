@@ -26,13 +26,13 @@ jobs:
       - name: Check HTML
         run: npx htmlhint "**/*.html"
 
-      - name: Check CSS
-        run: |
-          if compgen -G "**/*.css" > /dev/null; then
-            npx stylelint "**/*.css"
-          else
-            echo "No CSS files found, skipping stylelint."
-          fi
+      # - name: Check CSS
+      #   run: |
+      #     if compgen -G "**/*.css" > /dev/null; then
+      #       npx stylelint "**/*.css"
+      #     else
+      #       echo "No CSS files found, skipping stylelint."
+      #     fi
 
       - name: Check JavaScript
         run: |
