@@ -14,7 +14,7 @@ app.use(cors()); //必须当成全局中间件使用
 const userListRouter = require("./userListRouter");
 
 // use router module
-app.use(userListRouter);
+app.use("/api", userListRouter);
 
 // start web server
 const PORT = process.env.PORT || 3000;
