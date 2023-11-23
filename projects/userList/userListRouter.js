@@ -1,6 +1,8 @@
 // require express and create a router
 const express = require("express");
 const userListRouter = express.Router();
+const cors = require("cors");
+app.use(cors()); //必须当成全局中间件使用
 
 //initial array of users
 let users = [
@@ -19,7 +21,7 @@ function getNewId(users) {
 }
 
 userListRouter
-  .route("/api")
+  .route("/")
   // fetch all users
   .get((req, res) => {
     try {
@@ -68,7 +70,7 @@ userListRouter
   });
 
 // delete a user by id
-userListRouter.delete("/api/:id", (req, res) => {
+userListRouter.delete("/:id", (req, res) => {
   try {
     const userIdToDelete = parseInt(req.params.id);
     const initialUsersCount = users.length;
