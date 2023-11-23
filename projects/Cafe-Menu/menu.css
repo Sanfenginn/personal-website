@@ -1,0 +1,88 @@
+body{
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+div{
+    background-color: burlywood;
+    width: 80%;
+    margin:auto;
+    max-width: 500px;
+    padding: 20px;
+    padding-top: 16px;
+}
+
+h1,h2,P {
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flavor{
+    display: inline-block;
+    width:50%;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color:rgb(3, 59, 59);
+}
+.price{
+    display: inline-block;
+    width:50%;
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color:rgb(3, 59, 59)
+}
+hr{
+    background-color: brown;
+    border-color: brown;
+    height: 2px;
+}
+.establish{
+    font-style: italic;
+    color:rgb(3, 59, 59);
+}
+h1{
+    font-family: Impact;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(44, 44, 69);
+}
+h2{
+    font-family: Impact;
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(44, 44, 69);
+    margin-bottom: 0;
+}
+.footer_desc{
+    margin-bottom: 5px;
+}
+
+/* a{
+    a:visited{color: grey;}
+    a:hover { color: brown;}
+} */
+
+a {
+    color: rgb(44, 44, 69);
+    /* color:black; */
+}
+
+a:visited {
+    color:grey;
+}
+
+a:hover {
+    color: brown;
+} 
+a:active {
+    color: white;
+}

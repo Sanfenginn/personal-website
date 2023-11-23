@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+html {
+  font-size: 16px;
+}
+.label {
+  width: 270px;
+  margin: 1.5em auto;
+  border: 2px solid black;
+  padding: 0 8px;
+}
+.light {
+  border-bottom: 1px solid #888989;
+}
+.medium {
+  height: 5px;
+  background-color: black;
+  border: 0;
+  margin: 2px 0;
+}
+.large {
+  height: 10px;
+  background-color: black;
+  border: 0;
+  margin: 2px 0;
+}
+footer {
+  text-align: center;
+}
+.bold {
+  font-weight: bold;
+}
+.between {
+  display: flex;
+  justify-content: space-between;
+}
+.label_main_section_p2 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin: -5px -2px;
+}
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+.facts p:not(.no_line) {
+  border-bottom: 1px solid #888989;
+}
+p {
+  margin: 0;
+  font-size: 0.85rem;
+}
+.indent {
+  margin-left: 10px;
+}
+.double_indent {
+  margin-left: 20px;
+}
+.facts_p16 {
+  padding: 8px;
+  margin: auto;
+  font-size: 0.6rem;
+  text-indent: -8px;
+}
+.label_header_h1 {
+  text-align: center;
+  margin: -4px 0;
+  /* letter-spacing: 0.15px; */
+  font-weight: 800;
+}
+.margin {
+  margin: 0;
+}
+.calories_p1 {
+  font-size: 0.7rem;
+}
+
+.copyright {
+  margin-top: 1vw;
+  color: rgb(42, 41, 40);
+}

@@ -1,0 +1,11 @@
+# Allowing all robots complete access
+User-agent: *
+Disallow:
+
+# Disallowing specific folders
+User-agent: *
+Disallow: /private/
+Disallow: /tmp/
+
+# Sitemap location
+Sitemap: https://www.sanfenginn.com/sitemap.xml

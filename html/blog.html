@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Blog - Jinyuan Zhang</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jinyuan Zhang" />
+    <meta name="theme-color" content="rgb(50, 53, 108)" />
+    <meta
+      name="description"
+      content="Read Jinyuan Zhang's blog for insights on web development trends, tips, and personal industry experiences."
+    />
+
+    <meta
+      name="keywords"
+      content="web development blog, coding blog, web design insights, programming tutorials, tech opinions"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/browser-tab.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/style-blog.css" />
+    <script src="my-js-file.js" defer></script>
+  </head>
+  <body class="blog-page">
+    <section class="container">
+      <header>
+        <nav class="navbar">
+          <a href="/">Home</a>
+          <a href="skills">Skills</a>
+          <a href="portfolio">Portfolio</a>
+          <a href="blog">Blog</a>
+          <a href="contact">Contact</a>
+        </nav>
+      </header>
+      <main>
+        <section class="head">
+          <h2 class="head-description">Dev's Life</h2>
+          <h1 class="head-order">01</h1>
+          <h1 class="head-heading">Blog Post</h1>
+        </section>
+        <div class="photo">
+          <img
+            src="../images/ai.jpg"
+            alt="photo-ai"
+            class="photo-ai"
+            width="100%"
+          />
+        </div>
+        <article class="paragraph">
+          <h3 class="paragraph-heading">
+            Revolutionizing Software Development
+          </h3>
+          <small class="footnote">Jinyuan Zhang Posted on 11/11/2023</small>
+          <p class="zoom-out paragraph1">
+            Containerization and virtualization technologies, especially Docker
+            and Kubernetes, have revolutionized software development by
+            encapsulating applications with their dependencies into containers
+            for consistent operation across various environments. This approach
+            streamlines deployment and enhances development efficiency and
+            reliability, ensuring applications function uniformly from
+            development to production. Kubernetes, building on Docker's
+            foundation, manages and scales these applications in a cluster,
+            providing functionalities like load balancing and self-healing,
+            while 'pods' offer scalable and flexible application management.
+          </p>
+          <p class="zoom-out paragraph2">
+            Docker and Kubernetes excel in environment isolation, with Docker
+            creating consistent operational environments and Kubernetes
+            introducing namespaces for isolated workspaces within the same
+            cluster. This not only maintains performance consistency but also
+            adds a layer of security in multi-user scenarios. A real-world
+            example is Spotify, which leveraged these technologies to handle
+            massive data and complex services efficiently, thereby improving
+            service reliability and expediting new feature deployments.
+            Containerization also fostered enhanced collaboration between
+            development and operations teams.
+          </p>
+          <p class="zoom-out paragraph3">
+            Overall, Docker and Kubernetes are integral to modern software
+            development and deployment, offering unparalleled efficiency and
+            scalability, and robust isolation capabilities. Their adoption puts
+            developers and enterprises at the forefront of technological
+            advancement, equipping them to meet the dynamic and rigorous demands
+            of the current digital landscape.
+          </p>
+        </article>
+      </main>
+    </section>
+    <footer class="footer">
+      <p>&copy; 2023 Jinyuan Zhang. All Rights Reserved.</p>
+    </footer>
+  </body>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-ZEC0SP4CB2"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-ZEC0SP4CB2");
+  </script>
+</html>
