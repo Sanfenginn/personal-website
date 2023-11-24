@@ -17,5 +17,5 @@ const userListRouter = require("./userListRouter");
 app.use("/api", userListRouter);
 
 // start web server
-const PORT = process.env.PORT || 3000;
+const PORT = 51000;
 app.listen(PORT, () => {});
