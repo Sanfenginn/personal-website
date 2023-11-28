@@ -40,7 +40,7 @@ const getList = () => {
     .then((res) => {
       const userListFromServer = res.data.data;
       clearList();
-      appendUsers(userListFromServer);
+      appendUsers(userListFromServer);  
     })
     .catch((err) => {
       console.error("Error fetching user list: ", err);
