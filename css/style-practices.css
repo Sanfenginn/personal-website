@@ -132,6 +132,13 @@ footer {
   text-decoration-thickness: 2px;
 }
 
+@media only screen and (width <= 1024px) {
+  th,
+  td {
+    font-size: clamp(0.7rem, 1.6vw, 1rem);
+  }
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;
